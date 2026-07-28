@@ -1,112 +1,63 @@
-# Fox Byte Lab
+# Fox Byte Lab (FBL) 
 
-> Engineering laboratory for networking, infrastructure, automation and distributed systems.
+> Инженерная homelab лаборатория ориентированная на тестовые сетевые решения, стнеды и самостоятельное изучение технологий
 
-Fox Byte Lab (FBL) is a personal engineering laboratory where projects are created, researched and documented.
-
-The primary goal of FBL is not to produce many repositories, but to build understandable, reproducible and well-documented systems.
+Основная задача проекта - освоение навыков с их адеватной документацией для самопонимания прогресса и пути развития
 
 ---
 
-## Philosophy
+## Области знаний:
 
-Every project should satisfy four principles:
+- Linux (ubuntu, debian (kali linux), nixos)
+- Элементартные основы работы сетей и топологий
+- Простая автоматизация процессов через bash и python
+- Использование VPS
+- Изучение кибер безопастности на базовом уровне, основной упор на network направление
 
-- Reproducibility
-- Documentation
-- Simplicity
-- Practical value
+---
+# Документация проектной деятельности
+Проект находится в активной фазе разработки, по этому документация разлделена на архивную часть и на активную часть.
 
-If a project cannot be recreated from documentation, then the documentation is incomplete.
+## Архивнаядокументация
+
+Постоянная документация.
+
+Включает в себя:
+
+- Архитектуру
+- Описания
+- Детали/компоненты
+- Интерфейсы взаимодействия
+- Причины
+- Последовательность действий
+- Планы
+- 
+Не меняется - только АРХИВИРУЕТСЯ.
 
 ---
 
-## Areas
+### Активная часть
 
-Current research includes:
+Меняющаяся, не постоянная документация.
 
-- Linux
-- Networking
-- OpenWrt
-- Infrastructure
-- VPN
-- Distributed networking
-- Automation
-- Self-hosting
-- Security research
-- Reverse engineering
+Включает:
 
----
+- Установки, монтаж или настройку
+- Планируемые конфигурации, настройки, улучшения
+- Размещение, работа сервисов
+- Ошибки и их статус
+- Опыт работы
 
-## Repository Structure
-
-Each public repository follows a common documentation standard.
-docs/
-
-Engineering/
-    Architecture.md
-    Design.md
-    Decisions.md
-
-Operations/
-    Installation.md
-    Configuration.md
-    Maintenance.md
-    Troubleshooting.md
-
-Reference/
-    Glossary.md
-    FAQ.md
-
-Documentation is considered part of the project.
+Меняется до отправки в архив.
 
 ---
 
-## Documentation Principles
+## Статус проекта
 
-Fox Byte Lab separates documentation into two categories.
-
-### Engineering Documentation
-
-Stable documentation.
-
-Explains:
-
-- architecture
-- design decisions
-- components
-- interfaces
-- reasoning
-
-Changes only when the architecture changes.
+Этот репозиторий служит основным источником публичной информации о состоянии проектаFox Byte Lab.
+Любой может предложить идеи и принять тем самым чучастие.
 
 ---
 
-### Operational Knowledge
-
-Living documentation.
-
-Explains:
-
-- installation
-- configuration
-- upgrades
-- maintenance
-- troubleshooting
-- operational experience
-
-Updated whenever practical knowledge changes.
-
----
-
-## Project Status
-
-This repository serves as the public entry point for Fox Byte Lab.
-
-Individual projects are maintained in separate repositories.
-
----
-
-## License
-
+## Лицензия
 Unless otherwise stated, repositories are released under the MIT License.
